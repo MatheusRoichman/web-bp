@@ -1,0 +1,38 @@
+{
+  "name": "web-bp",
+  "version": "1.0.0",
+  "description": "A simple CLI to create a static website boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathewRoichman/web-bp.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "generator",
+    "HTML",
+    "CSS",
+    "CLI",
+    "terminal",
+    "tool",
+    "javascript",
+    "web"
+  ],
+  "author": "Matheus Lima Roichman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MathewRoichman/web-bp/issues"
+  },
+  "homepage": "https://github.com/MathewRoichman/web-bp#readme",
+  "bin": {
+    "web-bp": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "fs": "0.0.1-security"
+  }
+}
